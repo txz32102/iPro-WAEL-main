@@ -34,7 +34,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve, auc, precision_recall_fscore_support, accuracy_score
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation, Flatten, Dropout
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras.optimizers import SGD, RMSprop, Adam, Adadelta
 from keras.utils import np_utils
 from keras.layers.convolutional import Conv2D, Conv1D
